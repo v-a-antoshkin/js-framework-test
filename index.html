@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>dbmon</title>
+    <script src="https://cdn.jsdelivr.net/npm/pouchdb@latest/dist/pouchdb.min.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
     <style>
         body {
@@ -363,23 +364,17 @@
     </div>
     <div class="container">
         <button onclick="saveList()">Сохранить</button>
+        <button onclick="allList()">Загрузить</button>
         <div class="child all">
             <a target="_blank" href="./all.html">Run all</a>
         </div>
-        <a class="child odajs" target="_blank" href="./odajs"></a>
     </div>
     <div id="list"></div>
-    <script src="./elem-vdom/elem.js"></script>
     <script src="./list.js"></script>
     <script src="./library-list.js"></script>
     <script src="./ga.js"></script>
-    <script>
-        function saveList() {
-            alert(JSON.stringify(List));
-            alert("Вероника");
-        }
+    <script src="./app.js"></script>
 
-    </script>
 </body>
 
 </html>
