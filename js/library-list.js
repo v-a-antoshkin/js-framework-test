@@ -15,4 +15,4 @@
   }
 
   Elem.render(LibraryList, '#list', { array: List, name: '' });
-});
+})();
