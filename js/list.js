@@ -8,4 +8,5 @@ var List = [
 	{ type: 'naive polymer ', id: 'polymer', url: './frameworks/polymer', label: 'Polymer 1.8' },
 	{ type: 'naive react', id: 'react', url: './frameworks/react', label: 'React' },
 	{ type: 'optimized preact', id: 'preact', url: './frameworks/preact', label: 'Preact' },
+	{ type: 'naive mithril', id: 'mithril', url: './frameworks/mithril', label: 'Mithril' },
 ];
