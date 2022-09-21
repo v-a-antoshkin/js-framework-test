@@ -1,42 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
-<head lang="ru">
+<head>
     <meta charset="utf-8">
-    <meta name="description" content="Lit Speed Race" />
+    <meta name="description" content="Lit Speed Race">
     <title>Lit Speed Race</title>
-    <style>
-        body {
-            flex-direction: column;
-            color: #333;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-size: 14px;
-            line-height: 1.42857143;
-            margin: 0;
-        }
-
-        label {
-            display: inline-block;
-            font-weight: 700;
-            margin-bottom: 5px;
-        }
-
-        input[type=range] {
-            display: block;
-            width: 100%;
-        }
-    </style>
+    <!-- <link href="../../css/styles.css" rel="stylesheet"> -->
 </head>
 
 <body>
     <lit-test></lit-test>
-
     <script src="../../js/ENV.js"></script>
     <script src="../../lib/memory-stats.js"></script>
     <script src="../../lib/monitor.js"></script>
-
     <script type="module">
-        import { LitElement, html, css } from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/lit-all.min.js';
+        // import { LitElement, html, css } from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/lit-all.min.js';
+        import { LitElement, html, css } from 'https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js';
+
         customElements.define('lit-test', class LitTest extends LitElement {
             static get properties() {
                 return {
