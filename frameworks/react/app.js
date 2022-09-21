@@ -1,6 +1,6 @@
 /** @jsx React.DOM */
 
-var DBMon = React.createClass({
+var App = React.createClass({
   getInitialState: function() {
     return {
       databases: []
@@ -58,4 +58,4 @@ var DBMon = React.createClass({
   }
 });
 
-ReactDOM.render(<DBMon />, document.getElementById('dbmon'));
+ReactDOM.render(<App />, document.getElementById('app'));

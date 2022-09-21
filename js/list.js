@@ -6,4 +6,6 @@ var List = [
 	{ type: 'naive backbone', id: 'backbone', url: './frameworks/backbone', label: 'Backbone' },
 	{ type: 'naive angular', id: 'angular', url: './frameworks/angular', label: 'Angular' },
 	{ type: 'naive polymer ', id: 'polymer', url: './frameworks/polymer', label: 'Polymer 1.8' },
+	{ type: 'naive react', id: 'react', url: './frameworks/react', label: 'React' },
+	{ type: 'optimized preact', id: 'preact', url: './frameworks/preact', label: 'Preact' },
 ];

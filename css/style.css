@@ -261,6 +261,20 @@ a {
     background-repeat: no-repeat;
 }
 
+.preact {
+    background-image: url(../images/preact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child.preact {
+    align-items: flex-end;
+}
+
+.preact > a {
+    margin-bottom: 5px;
+}
+
 .vue {
     background-image: url(../images/vue.png);
     background-size: cover;
